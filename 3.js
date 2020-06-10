@@ -1793,7 +1793,7 @@ roll.onclick = function(){
                     c.stroke();
                     roll.style.display="initial"; 
                     if(p3.completed==1 && p4.completed==1)
-                    prompt("player:2 wins");
+                    alert("player:2 wins");
                 };
             }
         }
